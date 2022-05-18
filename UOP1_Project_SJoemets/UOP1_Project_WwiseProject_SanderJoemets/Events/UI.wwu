@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{62948BE5-4939-4AF2-97C5-E1DA8521B4B9}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="UI" ID="{62948BE5-4939-4AF2-97C5-E1DA8521B4B9}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="11"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="UI_Click" ID="{7A487C94-DAE2-491C-A194-C8C57F63E49F}">
+					<ChildrenList>
+						<Action Name="" ID="{EC61419F-A097-4D3A-B759-0BABAE660FD0}" ShortID="877258948">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI Click" ID="{7F34B10C-736B-4EB6-99DE-CA8BB9831ABE}" WorkUnitID="{5C693791-206C-4758-9B5E-659A4BB5DA50}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Shuffle" ID="{10B97D8F-7CF9-4A20-BD54-3A25E9C39ABA}">
+					<ChildrenList>
+						<Action Name="" ID="{3DCF0373-EFD8-4AA2-98E6-34F09E62E271}" ShortID="693328260">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI Shuffle" ID="{4162E692-80C5-4225-9F1A-5065C798D28F}" WorkUnitID="{5C693791-206C-4758-9B5E-659A4BB5DA50}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Use" ID="{DA6DFC92-F46C-4F2B-9F23-1F69725AFCD9}">
+					<ChildrenList>
+						<Action Name="" ID="{3941AA78-827D-49DD-84BD-8618313855DD}" ShortID="310307966">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI Use" ID="{591A129C-88C3-445F-8B23-5D2AF4EB491C}" WorkUnitID="{5C693791-206C-4758-9B5E-659A4BB5DA50}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_AddToInv" ID="{8379A0B9-57BC-42D0-8C85-DF856845975B}">
+					<ChildrenList>
+						<Action Name="" ID="{B1D1973B-AA95-4539-8F4F-FF9F172B209B}" ShortID="540339082">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ui AddToInv" ID="{84D4E8AB-DC79-46E6-BF1F-0055FAA0CC2A}" WorkUnitID="{5C693791-206C-4758-9B5E-659A4BB5DA50}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

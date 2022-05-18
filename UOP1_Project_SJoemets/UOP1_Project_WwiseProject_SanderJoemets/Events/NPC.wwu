@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{54CE8957-CB0A-4721-8F46-49BB7570CCF8}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="NPC" ID="{54CE8957-CB0A-4721-8F46-49BB7570CCF8}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="14"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="NPC_Hare_Talk" ID="{5A5081A7-10B6-4014-80E9-092EF7FBBE8F}">
+					<ChildrenList>
+						<Action Name="" ID="{AC24248B-A30D-4862-8192-FCCE41519F7C}" ShortID="169489295">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HareTalk" ID="{4C91573D-AF2F-4FA9-ACAC-2C68A0D59524}" WorkUnitID="{EC328DEC-6C60-4C30-871E-22884A55B2A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Townsfolk_Female_Talk" ID="{9313CF29-8D08-4E04-9EF5-51EAB243F59C}">
+					<ChildrenList>
+						<Action Name="" ID="{4280317B-C708-4105-9D9C-739FF1988D6A}" ShortID="1005619528">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VillagerFem" ID="{7407238F-B7ED-47CA-A21E-CDC0D30289CE}" WorkUnitID="{EC328DEC-6C60-4C30-871E-22884A55B2A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Townsfolk_Male_Talk" ID="{1425D91B-2399-461D-BE92-0CF6BF56507B}">
+					<ChildrenList>
+						<Action Name="" ID="{872BE073-856F-4879-A887-8CA4EB7006DF}" ShortID="567766113">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VillagerMale" ID="{573C7071-5354-4347-8DB3-1D845DAC5895}" WorkUnitID="{EC328DEC-6C60-4C30-871E-22884A55B2A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NPC_Hare_Song_Long" ID="{5E8BCC13-1A6C-4FE5-B62A-DB09EBB7C8D2}">
+					<ChildrenList>
+						<Action Name="" ID="{399327D6-8B53-4B23-97F1-618B240AA56C}" ShortID="79325998">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HareSing" ID="{708E2749-74E1-41C4-BA2E-C8757EE5210D}" WorkUnitID="{EC328DEC-6C60-4C30-871E-22884A55B2A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

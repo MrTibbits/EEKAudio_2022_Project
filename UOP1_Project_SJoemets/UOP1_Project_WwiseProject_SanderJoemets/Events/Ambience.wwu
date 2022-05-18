@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Ambience" ID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Reverb" ID="{8DBBD3B0-1A46-4ECF-8D49-947518B3565B}" ShortID="335706828">
+					<ChildrenList>
+						<Event Name="CaveReverb_Enable" ID="{ED01CA85-5445-4A10-BA81-E68194E22985}">
+							<ChildrenList>
+								<Action Name="" ID="{121231F5-503A-4E5D-BBF1-48B247CEBE93}" ShortID="800849594">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CaveReverb_Enabled" ID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}" WorkUnitID="{5390DFB1-2588-49D9-92B1-0500AE6D6911}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CaveReverb_Disable" ID="{B1387412-0137-4348-BA74-549A18F48604}">
+							<ChildrenList>
+								<Action Name="" ID="{D2546789-434A-49CF-A8B8-B3BB1E32B52E}" ShortID="720970319">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CaveReverb_Disabled" ID="{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}" WorkUnitID="{5390DFB1-2588-49D9-92B1-0500AE6D6911}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="3D" ID="{AC1DF05B-A718-4E92-B384-A191624F0284}" ShortID="477369302">
+					<ChildrenList>
+						<Event Name="Amb_BoilingWater" ID="{B3CBC329-B5A4-4295-87DC-D15BC919B518}">
+							<ChildrenList>
+								<Action Name="" ID="{5AA4A0F3-BC42-4033-B569-574D9542419D}" ShortID="590477960">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BoilingWater" ID="{03D0FA28-FE17-4DE3-B7BC-B49A6306697B}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Fire" ID="{25EFE2E7-0FA4-4E57-AB30-A76398128C64}">
+							<ChildrenList>
+								<Action Name="" ID="{1999022C-A939-41E9-8DE1-65DF67E30168}" ShortID="134844506">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bonfire" ID="{1932E625-9424-4305-B558-1EF2E1E1ACAC}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Ocean" ID="{1D83ADEA-34E5-4C30-BFD7-FF55F12E64F2}">
+							<ChildrenList>
+								<Action Name="" ID="{ADAB8DD0-D009-4F8F-903E-87384D17F920}" ShortID="307729694">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Coast" ID="{C2002C74-5D79-48D4-8CE3-8E7ABF578F7A}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Cave" ID="{C7E057B8-F399-485E-ACF5-A8CADA8EBE1B}">
+							<ChildrenList>
+								<Action Name="" ID="{CCE3842C-1676-450E-82FE-719AF9BDBC85}" ShortID="230624486">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cave" ID="{4C597E3A-1FDD-447B-8077-D7ED94990C94}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Trees" ID="{096B2534-C54F-4379-A9EE-7A31F3D98C1E}"/>
+						<Event Name="Amb_torch" ID="{31FFFD81-1366-4678-9CD0-6D6C0B1BA01B}">
+							<ChildrenList>
+								<Action Name="" ID="{4676DB4F-3E29-4580-B023-E65285624D85}" ShortID="934169497">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Torch" ID="{3D342823-5E3B-4903-B781-CF9D566A395F}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="2D" ID="{34922CDF-8873-4B3D-A767-6A80572DD993}" ShortID="88501847">
+					<ChildrenList>
+						<Event Name="Amb_Beach" ID="{1DD6F429-9A8F-4D02-A593-A27476F19E8C}">
+							<ChildrenList>
+								<Action Name="" ID="{F7F5BE81-D5D8-4B1A-A094-15F70EA29A58}" ShortID="882492867">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Beach" ID="{2669FD5F-2501-41C8-9E8D-517CA4C12048}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Field_Farms" ID="{538ECA98-92ED-4AB7-B7D3-F4634DAC606E}">
+							<ChildrenList>
+								<Action Name="" ID="{A0267EC5-393F-4145-9762-22B4D045DD82}" ShortID="288462003">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Town" ID="{47486E53-6953-42D0-9512-E04EAE8AE9C5}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Field_Hill" ID="{9BACFD17-CC3A-4278-939D-56EBED3AC9AA}">
+							<ChildrenList>
+								<Action Name="" ID="{B6AC2E94-EEBD-4B4F-BC48-CB94D635D3A8}" ShortID="544777456">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hills" ID="{340F1310-32E5-46F6-88AA-146C8AC1E74E}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

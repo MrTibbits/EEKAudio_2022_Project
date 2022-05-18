@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{21674ACD-93A6-43ED-82E3-4F20BF0D65E6}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{21674ACD-93A6-43ED-82E3-4F20BF0D65E6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SFX" ID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Player" ID="{DE9FEC05-1308-4510-A873-FBADB7B1B30B}" WorkUnitID="{DE9FEC05-1308-4510-A873-FBADB7B1B30B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambience" ID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" WorkUnitID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlantEnemy" ID="{FF42D153-D9E1-46E4-9579-A0CB4CAD3196}" WorkUnitID="{FF42D153-D9E1-46E4-9579-A0CB4CAD3196}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NPC" ID="{54CE8957-CB0A-4721-8F46-49BB7570CCF8}" WorkUnitID="{54CE8957-CB0A-4721-8F46-49BB7570CCF8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI" ID="{62948BE5-4939-4AF2-97C5-E1DA8521B4B9}" WorkUnitID="{62948BE5-4939-4AF2-97C5-E1DA8521B4B9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Control" ID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" WorkUnitID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{33846118-30EB-491F-BA51-6B900B7B3237}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music" ID="{973EF824-929B-46A2-8D78-81B31C0BDFAC}" WorkUnitID="{973EF824-929B-46A2-8D78-81B31C0BDFAC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

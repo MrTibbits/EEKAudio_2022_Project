@@ -1,0 +1,95 @@
+Event	ID	Name			Wwise Object Path	Notes
+	592624029	UI_Shuffle			\UI\UI_Shuffle	
+	660562971	Townsfolk_Male_Talk			\NPC\Townsfolk_Male_Talk	
+	728646680	Amb_Field_Farms			\Ambience\2D\Amb_Field_Farms	
+	816303795	Player_Grab			\Player\Combat\Player_Grab	
+	859052727	Amb_Beach			\Ambience\2D\Amb_Beach	
+	1130358517	UI_AddToInv			\UI\UI_AddToInv	
+	1363577934	Player_Jump_LiftOff			\Player\Combat\Player_Jump_LiftOff	
+	1419286180	NPC_Hare_Talk			\NPC\NPC_Hare_Talk	
+	1542330065	Player_Die			\Player\Combat\Player_Die	
+	1717767246	NPC_Hare_Song_Long			\NPC\NPC_Hare_Song_Long	
+	1730208058	Player_Footsteps			\Player\Footsteps\Player_Footsteps	
+	1822764980	Critter_Plant_GettingHit			\PlantEnemy\Critter_Plant_GettingHit	
+	1824690809	Amb_BoilingWater			\Ambience\3D\Amb_BoilingWater	
+	1879932703	CaveReverb_Disable			\Ambience\Reverb\CaveReverb_Disable	
+	1940944140	CaveReverb_Enable			\Ambience\Reverb\CaveReverb_Enable	
+	1969612259	Critter_Plant_Attack			\PlantEnemy\Critter_Plant_Attack	
+	1997053204	Amb_Field_Hill			\Ambience\2D\Amb_Field_Hill	
+	2060690880	Player_Water_Splash			\Player\Player_Water_Splash	
+	2249769530	UI_Click			\UI\UI_Click	
+	2565812264	Amb_torch			\Ambience\3D\Amb_torch	
+	2644861617	Amb_Trees			\Ambience\3D\Amb_Trees	
+	2675089675	Player_Talk			\Player\Player_Talk	
+	2824512041	Player_Attack			\Player\Combat\Player_Attack	
+	2891098061	Critter_Plant_Idle			\PlantEnemy\Critter_Plant_Idle	
+	2910694179	Critter_Plant_Death			\PlantEnemy\Critter_Plant_Death	
+	2971175702	Townsfolk_Female_Talk			\NPC\Townsfolk_Female_Talk	
+	3170972326	Scene_Change			\Control\Scene_Change	
+	3207324726	Amb_Fire			\Ambience\3D\Amb_Fire	
+	3210856931	UI_Use			\UI\UI_Use	
+	3484321931	Player_Heartbeat			\Player\Combat\Player_Heartbeat	
+	3635877684	Amb_Ocean			\Ambience\3D\Amb_Ocean	
+	3755979049	Amb_Cave			\Ambience\3D\Amb_Cave	
+	3856109001	Player_Jump_Landing			\Player\Combat\Player_Jump_Landing	
+	3945457670	Player_GetHit			\Player\Combat\Player_GetHit	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	547160665	Surface_Grass	Footsteps			
+	1810448540	Surface_Stone	Footsteps			
+	1897702823	Surface_Sand	Footsteps			
+	3248230778	Surface_Water	Footsteps			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1697398818	CaveReverb			\Default Work Unit\CaveReverb	
+
+State	ID	Name	State Group			Notes
+	717767040	CaveReverb_Enabled	CaveReverb			
+	748895195	None	CaveReverb			
+	2218728873	CaveReverb_Disabled	CaveReverb			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	82310651	CaveReverb_Enabled	CaveReverb	\Actor-Mixer Hierarchy\Ambience\2D\Hills		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3677180323	Health			\Default Work Unit\Health	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	70677505	Beach	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\amb_beach_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\3D\Beach		5644864
+	75067376	PlantAttack	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\plant_attack_1E8B3EAC.wem		\Actor-Mixer Hierarchy\PlantEnemy\PlantAttack		185208
+	134307313	amb_coast	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\amb_coast_08F3B3F6.wem		\Actor-Mixer Hierarchy\Ambience\3D\Coast\amb_coast		2767924
+	148318356	PlantDeath	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\plant_death_7CF9B1AA.wem		\Actor-Mixer Hierarchy\PlantEnemy\PlantDeath		472240
+	157584811	ham_footsteps_rock	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\ham_footsteps_rock_9B69F831.wem		\Actor-Mixer Hierarchy\Player\Player\Player Footsteps\Footstep_Rock\ham_footsteps_rock		49092
+	180698858	UI Use	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\UI_textprompt_04B56391.wem		\Actor-Mixer Hierarchy\UI\UI Actor-Mixer\UI Use		147148
+	232018642	UI Shuffle	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\UI_inv_hover_8C390C09.wem		\Actor-Mixer Hierarchy\UI\UI Actor-Mixer\UI Shuffle		95844
+	241534143	Glade	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\amb_glade_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\2D\Hills\Glade		8996464
+	304829581	Ui AddToInv	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\UI_AddToInv_10C4C929.wem		\Actor-Mixer Hierarchy\UI\UI Actor-Mixer\Ui AddToInv		88264
+	321486843	amb_stew	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\amb_stew_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\3D\BoilingWater\amb_stew		1058464
+	353371364	Ham_Die	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\ham_death_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Combat\Ham_Die		441064
+	414366496	ham_footsteps_grass	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\ham_footsteps_grass_5A998828.wem		\Actor-Mixer Hierarchy\Player\Player\Player Footsteps\Footstep_Grass\ham_footsteps_grass		49092
+	471754127	Heartbeat	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\ham_heartbeat_D79FB2B7.wem		\Actor-Mixer Hierarchy\Player\Player\Combat\Heartbeat		88264
+	481439847	Ham_Jump_Landing	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\ham_jump_land_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player Footsteps\Ham_Jump_Landing		88264
+	514845569	Town	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\amb_farms_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\2D\Town		13230064
+	536470685	PlantHit	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\plant_hit_F0F4D5D7.wem		\Actor-Mixer Hierarchy\PlantEnemy\PlantHit		203076
+	536833528	amb_seagulls	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\amb_seagulls_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\3D\Coast\amb_seagulls		2822464
+	558588762	Cave	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\amb_cave_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\3D\Cave		2822464
+	601591043	PlantIdle	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\plant_idle_10C4C929.wem		\Actor-Mixer Hierarchy\PlantEnemy\PlantIdle		1146664
+	602591172	HareSing	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\haresong_D79FB2B7.wem		\Actor-Mixer Hierarchy\NPC\HareSing		5644864
+	634004307	ham_footsteps_sand	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\ham_footsteps_sand_F9EE5156.wem		\Actor-Mixer Hierarchy\Player\Player\Player Footsteps\Footstep_Sand\ham_footsteps_sand		43156
+	636348720	Ham_Attack	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\ham_attack_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Combat\Ham_Attack		88264
+	642125357	amb_bonfire	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\amb_bonfire_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\3D\Bonfire\amb_bonfire		1411264
+	657688864	Ham_Hit	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\ham_hit_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Combat\Ham_Hit		176464
+	666398997	villager_female	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\villager_female_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\VillagerFem\villager_female		88264
+	684558375	Ham_Grab	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\ham_pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Combat\Ham_Grab		88264
+	736417889	ham_footsteps_water	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\ham_footsteps_water_C7525589.wem		\Actor-Mixer Hierarchy\Player\Player\Player Footsteps\Footstep_Wet\ham_footsteps_water		54400
+	750674886	Ham_Jump_Liftoff	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\ham_jump_liftoff_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player Footsteps\Ham_Jump_Liftoff		88264
+	762596275	Torch	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\amb_torch_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\3D\Torch		1411264
+	799895861	ham_talk	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\ham_talk_38348C8A.wem		\Actor-Mixer Hierarchy\Player\Player\HamTalk\ham_talk		71032
+	805969763	UI Click	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\UI_button_click_637633C1.wem		\Actor-Mixer Hierarchy\UI\UI Actor-Mixer\UI Click		156248
+	897608893	HamSplash	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\ham_water_splash_911369DC.wem		\Actor-Mixer Hierarchy\Player\Player\HamSplash		196232
+	920360536	villager_male	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\villager_male_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\VillagerMale\villager_male		88264
+	954977383	hare_talks	F:\Works\SchoolWork\Audio\ChopProper\EEKAudio_2022_Project\UOP1_Project_SJoemets\UOP1_Project_WwiseProject_SanderJoemets\.cache\Mac\SFX\hare_talks_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\HareTalk\hare_talks		88264
+

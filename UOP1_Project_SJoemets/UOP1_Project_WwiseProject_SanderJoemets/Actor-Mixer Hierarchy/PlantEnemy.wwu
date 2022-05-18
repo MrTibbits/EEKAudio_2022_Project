@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ADB1A87F-2415-4363-AB2A-905D437B7FB4}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="PlantEnemy" ID="{ADB1A87F-2415-4363-AB2A-905D437B7FB4}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Sound Name="PlantHit" ID="{F396A116-B7C4-49D9-90F2-E9FD08DC5209}" ShortID="402237500">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="npc" ID="{A8EA0AF1-93CE-4F5B-8666-174BD6427499}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="plant_hit" ID="{C3784CD5-4EAD-4359-94E4-084FEE823A2A}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.349137931034483"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>plant_hit.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="536470685"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="plant_hit" ID="{C3784CD5-4EAD-4359-94E4-084FEE823A2A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PlantIdle" ID="{A109029F-D654-4371-881E-F6D645B69170}" ShortID="901427694">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="npc" ID="{A8EA0AF1-93CE-4F5B-8666-174BD6427499}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="plant_idle" ID="{A50B2183-69FC-4FDC-A5B4-289402162AB5}">
+							<Language>SFX</Language>
+							<AudioFile>plant_idle.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="601591043"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="plant_idle" ID="{A50B2183-69FC-4FDC-A5B4-289402162AB5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PlantDeath" ID="{C6280080-2EC7-48F5-8CFD-29098DC41FE9}" ShortID="474854797">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="npc" ID="{A8EA0AF1-93CE-4F5B-8666-174BD6427499}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="plant_death" ID="{7E90B642-C74E-406D-B4B1-9072AFFCD8BB}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.323275862068965"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>plant_death.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="148318356"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="plant_death" ID="{7E90B642-C74E-406D-B4B1-9072AFFCD8BB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PlantAttack" ID="{0BE1647B-F57D-4780-A7AB-6BCB4A5B7530}" ShortID="120142273">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="npc" ID="{A8EA0AF1-93CE-4F5B-8666-174BD6427499}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="plant_attack" ID="{3E90B8CF-7784-416C-9554-549D390F741C}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.189655172413793"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.23922413793104"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>plant_attack.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="75067376"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="plant_attack" ID="{3E90B8CF-7784-416C-9554-549D390F741C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

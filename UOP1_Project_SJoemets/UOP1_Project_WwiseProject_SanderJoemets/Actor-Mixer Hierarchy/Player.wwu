@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5388035C-D882-458B-8139-8C3C5D39DB24}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Player" ID="{5388035C-D882-458B-8139-8C3C5D39DB24}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Player" ID="{3A939D33-F4AE-4BF4-B888-F4A03C693349}" ShortID="938086068">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="New Sequence Container" ID="{33D63CDC-5F8A-4866-9B87-E5F4105D0BF9}" ShortID="8961888">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ham_footsteps_sand" ID="{C3B4CA5D-FFBB-4CFD-8BA0-6453D3114EDE}" ShortID="214380913">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ham_footsteps_sand" ID="{DF514DFD-66BC-40FB-95F0-4B966C5C3DA9}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0652797704447633"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0430416068866571"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.112625538020086"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.375179340028694"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ham_footsteps_sand.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="355063606"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ham_footsteps_sand" ID="{DF514DFD-66BC-40FB-95F0-4B966C5C3DA9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ham_water_splash" ID="{73612796-9912-41D4-943B-00D4D13964AC}" ShortID="989799539">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ham_water_splash" ID="{AFD2E24D-2677-41A0-B29B-DCD4D857FE68}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.186246418338109"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.183381088825215"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.303724928366762"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.32664756446991"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ham_water_splash.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="17104237"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ham_water_splash" ID="{AFD2E24D-2677-41A0-B29B-DCD4D857FE68}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+							<Playlist>
+								<ItemRef Name="ham_footsteps_sand" ID="{C3B4CA5D-FFBB-4CFD-8BA0-6453D3114EDE}"/>
+								<ItemRef Name="ham_water_splash" ID="{73612796-9912-41D4-943B-00D4D13964AC}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<SwitchContainer Name="Player Footsteps" ID="{D3E0AFB8-D6CF-4078-AA9D-6128728D6C38}" ShortID="599034970">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Surface_Sand" ID="{E27A86F5-5FCC-42B6-AA66-2111F5747412}" WorkUnitID="{3F638A92-8741-4AA1-A380-324137B6CA3F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Footsteps" ID="{70390A87-95B5-4B27-9364-CA398DD7F4CE}" WorkUnitID="{3F638A92-8741-4AA1-A380-324137B6CA3F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Footstep_Wet" ID="{B3BD7264-0A8F-4571-91F6-17BC8588AB69}" ShortID="997556023">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ham_footsteps_water" ID="{66126ED9-5397-4B53-9275-6B97CA0BF3FF}" ShortID="1067419616">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>13</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>25</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B731BD05-3054-45EC-9BA4-B79BA8D47ED9}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="859"/>
+																	<Property Name="Min" Type="Real64" Value="-1137"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ham_footsteps_water" ID="{36A629B0-2D3E-48DA-B026-39CE3B2179AE}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0565902578796562"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0322349570200573"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0551575931232091"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.363180515759312"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ham_footsteps_water.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="736417889"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ham_footsteps_water" ID="{36A629B0-2D3E-48DA-B026-39CE3B2179AE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Footstep_Sand" ID="{26D314FE-406F-4FCF-87F7-80E2BDB34D1B}" ShortID="1047287485">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ham_footsteps_sand" ID="{6266A281-6BB8-4224-894F-D8A9A27FC44E}" ShortID="243693141">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>43</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>46</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F5AEE0A4-7840-4515-BA43-870F5EA3EE18}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="328"/>
+																	<Property Name="Min" Type="Real64" Value="-227"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ham_footsteps_sand" ID="{D6B9012E-2F2A-4F54-9F38-961247236C20}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0687679083094556"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0422636103151862"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.111031518624642"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.355300859598854"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ham_footsteps_sand.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="634004307"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ham_footsteps_sand" ID="{D6B9012E-2F2A-4F54-9F38-961247236C20}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Footstep_Grass" ID="{19145E8D-A2F0-4009-96AF-19CBC3BAEA72}" ShortID="869650672">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6DF86A10-B509-400D-9148-690F48127067}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="606"/>
+															<Property Name="Min" Type="Real64" Value="-505"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ham_footsteps_grass" ID="{EDE1C286-3F9F-4AE4-B54C-0BEC38052303}" ShortID="164031418">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>66</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>28</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ham_footsteps_grass" ID="{65BBF152-7624-4B95-A202-BDA393BCBEC8}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0229226361031519"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0630372492836676"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.203438395415473"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.481375358166189"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ham_footsteps_grass.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="414366496"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ham_footsteps_grass" ID="{65BBF152-7624-4B95-A202-BDA393BCBEC8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Footstep_Rock" ID="{0980DB3D-DB40-47E2-B79F-4CD64AFB867E}" ShortID="287003770">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>52</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>28</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DD8FDF04-D076-4F3D-8EB0-FA409C7F87CA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="354"/>
+															<Property Name="Min" Type="Real64" Value="-328"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ham_footsteps_rock" ID="{AE661C35-4C33-48C0-B70C-7F59E79A6984}" ShortID="499006393">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ham_footsteps_rock" ID="{128B77EF-FBD0-4F9B-847A-FDB88B9BB3BF}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.108882521489971"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.277936962750716"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ham_footsteps_rock.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="157584811"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ham_footsteps_rock" ID="{128B77EF-FBD0-4F9B-847A-FDB88B9BB3BF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<Sound Name="Ham_Jump_Liftoff" ID="{339723F9-787D-45D7-936C-D84317D40E8F}" ShortID="535518376">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>28</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ham_jump_liftoff" ID="{9A9A38ED-6794-4114-8B0B-1729A479A4EA}">
+											<Language>SFX</Language>
+											<AudioFile>ham_jump_liftoff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="750674886"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ham_jump_liftoff" ID="{9A9A38ED-6794-4114-8B0B-1729A479A4EA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ham_Jump_Landing" ID="{5B54DD94-0F6D-4EED-B437-9E3971B3EBB2}" ShortID="459120013">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>16</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ham_jump_land" ID="{F42EF50B-50E7-4AE1-8ABD-649CE2E6B3A5}">
+											<Language>SFX</Language>
+											<AudioFile>ham_jump_land.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="481439847"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ham_jump_land" ID="{F42EF50B-50E7-4AE1-8ABD-649CE2E6B3A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Footstep_Rock" ID="{0980DB3D-DB40-47E2-B79F-4CD64AFB867E}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Footstep_Wet" ID="{B3BD7264-0A8F-4571-91F6-17BC8588AB69}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Footstep_Grass" ID="{19145E8D-A2F0-4009-96AF-19CBC3BAEA72}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Ham_Jump_Landing" ID="{5B54DD94-0F6D-4EED-B437-9E3971B3EBB2}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Ham_Jump_Liftoff" ID="{339723F9-787D-45D7-936C-D84317D40E8F}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Footstep_Sand" ID="{26D314FE-406F-4FCF-87F7-80E2BDB34D1B}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Surface_Water" ID="{01D81392-43F1-47AD-B37B-E7DBA926244A}"/>
+										<ItemList>
+											<ItemRef Name="Footstep_Wet" ID="{B3BD7264-0A8F-4571-91F6-17BC8588AB69}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Surface_Grass" ID="{7E7CA49C-0512-45BD-9720-1DF404619029}"/>
+										<ItemList>
+											<ItemRef Name="Footstep_Grass" ID="{19145E8D-A2F0-4009-96AF-19CBC3BAEA72}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Surface_Stone" ID="{726DFEDC-E56A-4AF3-891C-B0E9167E8CE7}"/>
+										<ItemList>
+											<ItemRef Name="Footstep_Rock" ID="{0980DB3D-DB40-47E2-B79F-4CD64AFB867E}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Surface_Sand" ID="{E27A86F5-5FCC-42B6-AA66-2111F5747412}"/>
+										<ItemList>
+											<ItemRef Name="Footstep_Sand" ID="{26D314FE-406F-4FCF-87F7-80E2BDB34D1B}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<Folder Name="Combat" ID="{521DDD87-C535-4B9D-B5BA-292AF5392879}" ShortID="555380949">
+							<ChildrenList>
+								<Sound Name="Heartbeat" ID="{4983B1D8-CA10-430F-AF81-957A623630B4}" ShortID="32413503">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>37</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-430</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{7590C4F7-E005-4876-B7EF-14215696EC78}" ShortID="734670771">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Health" ID="{A1E0C592-A89A-4BF2-92A2-B31F9994A8BC}" WorkUnitID="{47F8D5DB-6F74-4B0C-859D-698A15E4A228}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{4DBE81BE-949F-4A76-AA68-20CD3D0FEAAD}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>12.00717</XPos>
+																<YPos>-0.2049</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>15.1135</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>50</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ham_heartbeat" ID="{3AF86E38-EA71-488A-A304-4DDFE428D938}">
+											<Language>SFX</Language>
+											<AudioFile>ham_heartbeat.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="471754127"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ham_heartbeat" ID="{3AF86E38-EA71-488A-A304-4DDFE428D938}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ham_Hit" ID="{4BA9A04E-3AD8-4215-ABD6-55F962029664}" ShortID="603414578">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8378E5A2-1D9B-42AF-9250-5A0508F008A5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="429"/>
+															<Property Name="Min" Type="Real64" Value="-404"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ham_hit" ID="{70AC7678-3A17-43EF-A4A5-5F85A7BA2115}">
+											<Language>SFX</Language>
+											<AudioFile>ham_hit.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="657688864"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ham_hit" ID="{70AC7678-3A17-43EF-A4A5-5F85A7BA2115}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ham_Attack" ID="{D486D683-E6E5-4DE8-B076-9A001F15948C}" ShortID="227033376">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{834B99DF-1C11-4895-A290-B31E19827275}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="985"/>
+															<Property Name="Min" Type="Real64" Value="-1011"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ham_attack" ID="{F554BDD1-BE64-470A-BEC4-9980506A7536}">
+											<Language>SFX</Language>
+											<AudioFile>ham_attack.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="636348720"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ham_attack" ID="{F554BDD1-BE64-470A-BEC4-9980506A7536}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ham_Die" ID="{42E541CF-E604-460F-92A2-8811DA6CB312}" ShortID="1069245227">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ham_death" ID="{F74478A5-5062-458E-9994-72BD776ED33E}">
+											<Language>SFX</Language>
+											<AudioFile>ham_death.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="353371364"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ham_death" ID="{F74478A5-5062-458E-9994-72BD776ED33E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ham_Grab" ID="{94AC8B3E-126C-4212-A165-8D8E11BB8B45}" ShortID="119104689">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>380</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ham_pickup" ID="{FB933700-B074-4ACF-84AB-E392962FDAE3}">
+											<Language>SFX</Language>
+											<AudioFile>ham_pickup.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="684558375"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ham_pickup" ID="{FB933700-B074-4ACF-84AB-E392962FDAE3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Sound Name="HamSplash" ID="{742C1386-3688-44CF-AA60-6150E9E6EF73}" ShortID="170588885">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>64</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-30</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{23D233D3-35C0-4474-9437-18943CAC920B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="404"/>
+													<Property Name="Min" Type="Real64" Value="-632"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ham_water_splash" ID="{B8BC6D90-A9B3-4D9F-B571-BBE88015F66C}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.241379310344827"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.310344827586207"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.42241379310345"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ham_water_splash.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="897608893"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ham_water_splash" ID="{B8BC6D90-A9B3-4D9F-B571-BBE88015F66C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="HamTalk" ID="{7C53E988-77B7-4C30-BBED-532BB787D3F7}" ShortID="1066539291">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9B92906F-948E-4898-9101-E7496F0CF27F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="303"/>
+													<Property Name="Min" Type="Real64" Value="-202"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoopCount" Type="int32" Value="5"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.3"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ham_talk" ID="{4FA04B91-92CF-43B4-9F49-C8761C1C77BE}" ShortID="843828431">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ham_talk" ID="{AF9F7B62-E0F6-4446-9722-0CD1A524378D}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.189655172413793"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.31034482758621"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.71264367816092"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ham_talk.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="799895861"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ham_talk" ID="{AF9F7B62-E0F6-4446-9722-0CD1A524378D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

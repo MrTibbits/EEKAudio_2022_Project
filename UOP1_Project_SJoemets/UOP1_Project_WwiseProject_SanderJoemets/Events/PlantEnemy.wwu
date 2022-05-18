@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FF42D153-D9E1-46E4-9579-A0CB4CAD3196}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="PlantEnemy" ID="{FF42D153-D9E1-46E4-9579-A0CB4CAD3196}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="22"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Critter_Plant_Idle" ID="{1003E9DB-F085-4916-8B6A-92624A365912}">
+					<ChildrenList>
+						<Action Name="" ID="{D0E079F4-7726-45AE-BE48-85134D28ACBF}" ShortID="619365428">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlantIdle" ID="{A109029F-D654-4371-881E-F6D645B69170}" WorkUnitID="{ADB1A87F-2415-4363-AB2A-905D437B7FB4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Critter_Plant_Attack" ID="{70620CDC-FDE7-4D61-B0DC-A99DED80483A}">
+					<ChildrenList>
+						<Action Name="" ID="{8A12B1C6-BDAD-4B2D-8FE6-83C73533054D}" ShortID="456650371">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlantAttack" ID="{0BE1647B-F57D-4780-A7AB-6BCB4A5B7530}" WorkUnitID="{ADB1A87F-2415-4363-AB2A-905D437B7FB4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Critter_Plant_GettingHit" ID="{CDF2D953-7BE4-4FEA-A97B-DDB474E8440D}">
+					<ChildrenList>
+						<Action Name="" ID="{34DA2121-5D98-471B-9A1B-0790F4BE25E9}" ShortID="834153676">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlantHit" ID="{F396A116-B7C4-49D9-90F2-E9FD08DC5209}" WorkUnitID="{ADB1A87F-2415-4363-AB2A-905D437B7FB4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Critter_Plant_Death" ID="{79FBD36B-7179-49DE-87DF-485BC05F8AD6}">
+					<ChildrenList>
+						<Action Name="" ID="{9A025711-5941-4197-896C-B6245EC3D108}" ShortID="1000944819">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlantDeath" ID="{C6280080-2EC7-48F5-8CFD-29098DC41FE9}" WorkUnitID="{ADB1A87F-2415-4363-AB2A-905D437B7FB4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
